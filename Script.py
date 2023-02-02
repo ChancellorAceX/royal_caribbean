@@ -2,6 +2,7 @@ TIMEZONEDB_KEY = 'Z5ZDUWG4ZBMU'
 TIMEZONEDB_API_ROOT = 'http://api.timezonedb.com/v2.1/'
 TZDB_API_GET_LIST = TIMEZONEDB_API_ROOT+'list-time-zone'
 TZDB_API_GET_TIMEZONE = TIMEZONEDB_API_ROOT+'get-time-zone'
+DB_CONNECTION_STRING = "postgres://zjhpqlmr:oSLJD_OEBSrn-bUS8_KSTaOANjoE0WqU@fanny.db.elephantsql.com/zjhpqlmr"
 
 import requests
 import psycopg2
