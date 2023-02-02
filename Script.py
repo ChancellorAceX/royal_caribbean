@@ -5,6 +5,7 @@ TZDB_API_GET_TIMEZONE = TIMEZONEDB_API_ROOT+'get-time-zone'
 
 import requests
 import psycopg2
+import time
 
 dbDict={}
 
